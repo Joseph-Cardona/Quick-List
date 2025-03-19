@@ -1,0 +1,180 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ff7575;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  width: 48px;
+  border-width: 2px;
+  border: solid;
+  border-radius: 40px;
+  font-size: 20px;
+  background-color: white;
+  /*flex-grow: 10;*/
+  margin: 5px;
+  padding: 10px;
+  color: #ff7575;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  font-family: sans-serif;
+}
+
+.btn:hover {
+  /*padding: 11px;
+  margin: 4px;*/
+}
+
+#uglyLine {
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  bottom: 100px;
+  letter-spacing: 3.5px;
+}
+
+h1 {
+  font-size: 60px;
+  cursor: default;
+}
+
+.container {
+  width: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  bottom: 100px;
+}
+.containerAbout {
+  width: 330px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  bottom: 100px;
+}
+
+.todoItem {
+  width: 280px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  bottom: 100px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 40px;
+  padding: 0px;
+  display: flex;
+}
+.todoText {
+  float: center;
+  padding-right: 10px;
+  /*flex-grow: 5;*/
+  cursor: default;
+}
+
+.addItem {
+  width: 10px;
+  margin: 0px;
+  overflow: hidden;
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 0px 40px 40px 0px;
+  padding: 0px;
+  display: flex;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1.5px;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  max-width: 100%;
+  cursor: default;
+}
+
+.img {
+  width: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  bottom: 50px;
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  right: 20px;
+}
+
+a {
+  text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 25px;
+  position: fixed;
+  top: 8px;
+}
+
+a:hover {
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+}
+
+.addBar {
+  display: flex;
+  justify-content: center;
+  width: 275px;
+  margin: 0 auto;
+}
+
+input {
+  margin: 0px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 40px 0px 0px 40px;
+  color: #ff7575;
+  border-color: #ff7575;
+  flex-grow: 1;
+  font-family: "Oswald", sans-serif;
+  outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+  input {
+    margin: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 40px 0px 0px 40px;
+    color: #ff7575;
+    border-color: #ff7575;
+    flex-grow: 1;
+  }
+  .addBar {
+    display: flex;
+    width: 270px;
+    justify-content: center;
+  }
+}

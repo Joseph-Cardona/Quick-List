@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quick List - List Maker</title>
+    <link rel="manifest" href="manifest.json">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://cdn.glitch.global/1c9af2bc-8a29-4da0-90d0-aaf9f84613e6/Todo%20Icon.svg?v=1683774825422" />
+    <meta name="description" content="Make lists quickly and efficiently with this free list maker.">
+    <meta name="keywords" content="list maker, free list maker, quick list, quick list maker">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&display=swap" rel="stylesheet">
+    <meta name="google-site-verification" content="8RxnLQMVxnN3qNmRLMiNKlGF7RxiMnrRHzApoLiXUb0" />
+  </head>
+  <body>
+    <script>
+      window.addEventListener("load", () => {
+        if ("serviceWorker" in navigator) {
+          navigator.serviceWorker.register("service-worker.js");
+        }
+      });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/index.jsx"></script>
+  </body>
+</html>
