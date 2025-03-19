@@ -1,0 +1,30 @@
+{
+  "name": "Quick List - List Maker",
+  "short_name": "Quick List",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://cdn.glitch.global/1c9af2bc-8a29-4da0-90d0-aaf9f84613e6/Todo%20Icon.svg?v=1683774825422",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "https://cdn.glitch.global/1c9af2bc-8a29-4da0-90d0-aaf9f84613e6/Todo%20Icon.svg?v=1683774825422",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "https://cdn.glitch.global/1c9af2bc-8a29-4da0-90d0-aaf9f84613e6/Todo%20Icon.svg?v=1683774825422",
+      "sizes": "180x180",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "https://cdn.glitch.global/1c9af2bc-8a29-4da0-90d0-aaf9f84613e6/Todo%20Icon.svg?v=1683774825422",
+      "sizes": "120x120",
+      "type": "image/svg+xml"
+    }
+  ]
+}
